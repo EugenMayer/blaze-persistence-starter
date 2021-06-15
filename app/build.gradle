@@ -98,6 +98,7 @@ dependencies {
             "com.google.guava:guava:$googleGuava",
             "org.jetbrains:annotations:$jetbrainsAnnoations",
             "org.modelmapper:modelmapper:$modelMapper",
+            "com.h2database:h2",
     )
 
     // ************************************* blaze persistence  **************************

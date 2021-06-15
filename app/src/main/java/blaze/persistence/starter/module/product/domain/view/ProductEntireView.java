@@ -8,5 +8,11 @@ public interface ProductEntireView extends ProductIdView
 {
   String getName();
 
+  String getDescription();
+
+  String getColor();
+
   Long getPrice();
+
+  Long getWeight();
 }

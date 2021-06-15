@@ -13,5 +13,11 @@ public class Product
 
   private String name;
 
+  private String description;
+
+  private String color;
+
+  private Long weight;
+
   private Long price;
 }

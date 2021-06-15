@@ -12,5 +12,11 @@ public interface ProductUpdateView extends ProductEntireView, ProductIdView
 
   void setName(String name);
 
+  void setDescription(String description);
+
+  void setColor(String color);
+
   void setPrice(Long price);
+
+  void setWeight(Long weight);
 }

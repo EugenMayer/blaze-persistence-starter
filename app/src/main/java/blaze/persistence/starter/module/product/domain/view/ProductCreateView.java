@@ -12,5 +12,7 @@ public interface ProductCreateView extends ProductEntireView, ProductIdView
 
   void setName(String name);
 
+  void setDescription(String description);
+
   void setPrice(Long price);
 }
