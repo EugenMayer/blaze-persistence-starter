@@ -14,6 +14,10 @@ public class ProductService
 {
   private final EntityViewManager entityViewManager;
   private final EntityManager entityManager;
+  
+  public int returnInt() {
+    return 2;
+  }
 
   public ProductIdView create(String name, Long price)
   {
